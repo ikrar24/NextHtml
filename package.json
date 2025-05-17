@@ -1,0 +1,22 @@
+{
+  "name": "nexthtml",
+  "version": "1.0.0",
+  "description": "NextHtml simplifies your work by allowing you to avoid repetitive HTML writing.",
+  "main": "dist/nexthtml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nexthtml.js","html", "javascripts", "nexthtml"],
+  "author": "ikrar",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikrar24/nexthtml"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.5.3"
+  }
+}
