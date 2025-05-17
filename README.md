@@ -23,7 +23,7 @@ https://cdn.jsdelivr.net/gh/ikrar24/NextHtml@1.0.0/NextHtml.js
 
 **NextHtml Install in Node js**
 ```
-npm i nexthtml
+npm i nexthtml-js
 ```
 
 **NextHtml Install in Rect/Next js**

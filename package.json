@@ -1,5 +1,5 @@
 {
-  "name": "nexthtml",
+  "name": "nexthtml-js",
   "version": "1.0.0",
   "description": "NextHtml simplifies your work by allowing you to avoid repetitive HTML writing.",
   "main": "dist/nexthtml.js",
