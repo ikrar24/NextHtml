@@ -1,0 +1,21 @@
+HTML Element Processor License
+
+Copyright (c) 2025 Ikrar Ansari
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software (the "Software") via the official CDN link provided by the copyright holder (e.g., https://cdn.jsdelivr.net/gh/yourusername/html-element-processor@1.0.0/processor.min.js) to use the Software in their web projects, subject to the following conditions:
+
+1. **Usage**: The Software may be used in web projects by including it via the official CDN link. Usage includes executing the Software as part of a web application or website.
+
+2. **Restrictions**:
+   - You may not copy, modify, adapt, merge, reverse-engineer, decompile, disassemble, or create derivative works of the Software.
+   - You may not redistribute, sublicense, sell, lease, or transfer the Software, whether in whole or in part, to any third party.
+   - You may not host, mirror, or distribute the Software through any means other than the official CDN link provided by the copyright holder.
+   - You may not attempt to access or extract the source code from the minified Software.
+
+3. **No Warranty**: The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the copyright holder be liable for any claim, damages, or other liability arising from the use of the Software.
+
+4. **Termination**: Any violation of these terms will result in the immediate termination of the permission to use the Software.
+
+By Using the Software, you agree to be bound by the terms of this License. If you do not agree to these terms, you must not use the Software.
+
+For inquiries, contact the copyright holder via the GitHub repository: https://github.com/yourusername/nexthtml-cdn
