@@ -9,9 +9,9 @@ NextHtml simplifies your work by allowing you to avoid repetitive HTML writing. 
 ---
 
 ## Supported Platforms
-``` bash
+```
 html, React, Next.js And javaScripts Applications 
-
+```
 ---
 
 ## Installation
