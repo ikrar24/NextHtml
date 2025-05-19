@@ -18,12 +18,12 @@ html, React, Next.js And javaScripts Applications
 
 **NextHtml Install Via CDN Link**
 ```
-https://cdn.jsdelivr.net/gh/ikrar24/NextHtml@1.0.0/NextHtml.js
+https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.2/NextHtml.js
 ```
 
 **NextHtml Install in Node js**
 ```
-npm i nexthtml-js
+npm i -g nexthtml-js
 ```
 
 **NextHtml Install in Rect/Next js**
@@ -39,7 +39,7 @@ npm i nexthtml-react (comming soon)
 
 If you use the CDN link (not recommended for production), you can include it with the ```<script>``` tag:
 ```
-<script src="https://cdn.jsdelivr.net/gh/ikrar24/NextHtml@1.0.0/NextHtml.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.2/NextHtml.js"></script>
 ```
 
 *Note: Do not use the CDN link for deployment; use it only for practice.*
@@ -58,9 +58,9 @@ This is the best option for SEO optimization. To use NextHtml in Node.js, create
 
 
 ```
-npm nexthtml --read index.html --make output.html
+nexthtml-js --read index.html --make output.html
 or
-npm nexthtml --r index.html --m output.html
+nexthtml-js --r index.html --m output.html
 ```
 
 
@@ -69,9 +69,9 @@ Here, `index.html` is the file where you write your NextHtml code, and `output.h
 **Command 2: Automatically Read and Update `input.html` on Changes**
 
 ```
-npm nexthtml --read index.html --make output.html --wacth
+nexthtml --read index.html --make output.html --wacth
 or 
-npm nexthtml --r index.html --m output.html --w
+nexthtml --r index.html --m output.html --w
 ```
 This command automatically runs the code and updates the output file whenever changes are made.
 
@@ -340,7 +340,9 @@ Use the text attribute to set the inner HTML of elements.
 **Render Output**
 
 ```
-<p3 text='["This is 1st paragrapgh","This is 2nd paragrapgh","This is 3rd paragrapgh"] ></p3>
+<p>This is 1st paragrapgh</p>
+<p>This is 2nd paragrapgh</p>
+<p>This is 3rd paragrapgh</p>
 ````
 
 ## ``src`` Usecase
@@ -550,11 +552,11 @@ Use ``changeplaceholder`` to assign specific ``placeholder`` attributes to eleme
 ```
 <from id="userFrom">
       <input4 
-      changetype='["text","password","number"]'
+      changetype='["text","password","number","email"]'
 
-      changeclass='["fullName","userPassword","userNumber"]'
+      changeclass='["fullName","userPassword","userNumber","userNumber"]'
 
-      changeplaceholder='["Enter Name","Enter Password", "Enter Number"]'
+      changeplaceholder='["Enter Name","Enter Password", "Enter Number","Enter Email"]'
       ></input4>
 
       <button class="submitBtn"> Submit </button>

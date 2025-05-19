@@ -1,12 +1,20 @@
 {
   "name": "nexthtml-js",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "NextHtml simplifies your work by allowing you to avoid repetitive HTML writing.",
-  "main": "dist/nexthtml.js",
+  "main": "./lib/nexthtml.js",
+  "bin": {
+    "nexthtml-js": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["nexthtml.js","html", "javascripts", "nexthtml"],
+  "keywords": [
+    "nexthtml.js",
+    "html",
+    "javascripts",
+    "nexthtml"
+  ],
   "author": "ikrar",
   "license": "MIT",
   "type": "module",
@@ -17,6 +25,7 @@
   "dependencies": {
     "chokidar": "^4.0.3",
     "jsdom": "^26.1.0",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "yargs": "^17.7.2"
   }
 }
