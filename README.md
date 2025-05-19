@@ -280,8 +280,6 @@ To assign different classes to multiple elements created in a single line, use t
 
 
 ---
-### Agar Aap Arry Objact Ko Khali chodte hai ["","SecondClass"]
-
 
 ## Handling Empty Array Elements
 If you leave an array element empty (e.g.,`` ["","secondClass"])``, no class is assigned to that element.
@@ -364,7 +362,9 @@ Use the text attribute to set the inner HTML of elements.
 **Render Output**
 
 ```
-<p3 text='["This is 1st paragrapgh","This is 2nd paragrapgh","This is 3rd paragrapgh"] ></p3>
+<p>This is 1st paragrapgh</p>
+<p>This is 2nd paragrapgh</p>
+<p>This is 3rd paragrapgh</p>
 ````
 
 ## ``src`` Usecase
