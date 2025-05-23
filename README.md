@@ -70,7 +70,7 @@ Here, `index.html` is the file where you write your NextHtml code, and `output.h
 nexthtml --read index.html --make output.html --wacth
 or 
 nexthtml --r index.html --m output.html --w
-
+```
 This command automatically runs the code and updates the output file whenever changes are made.
 
 
