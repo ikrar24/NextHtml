@@ -18,6 +18,7 @@ html, React, Next.js And javaScripts Applications
 
 **NextHtml Install Via CDN Link**
 ```
+<<<<<<< HEAD
 https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.2/NextHtml.js
 ```
 
@@ -25,6 +26,23 @@ https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.2/NextHtml.js
 ``` bash
 npm i -g nexthtml-js
 
+=======
+<<<<<<< HEAD
+https://cdn.jsdelivr.net/gh/ikrar24/NextHtml@1.0.0/NextHtml.js
+=======
+https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.0/NextHtml.js
+>>>>>>> 56c67af (update nexthtml.js and redme)
+```
+
+**NextHtml Install in Node js**
+```
+<<<<<<< HEAD
+npm i nexthtml-js
+=======
+npm i -g nexthtml-js
+>>>>>>> 56c67af (update nexthtml.js and redme)
+```
+>>>>>>> 0f194106f38036ca8557bab58873e070e9a4ebf8
 
 **NextHtml Install in Rect/Next js**
 ```
@@ -39,7 +57,15 @@ npm i nexthtml-react (comming soon)
 
 If you use the CDN link (not recommended for production), you can include it with the ```<script>``` tag:
 ```
+<<<<<<< HEAD
 <script src="https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.2/NextHtml.js"></script>
+=======
+<<<<<<< HEAD
+<script src="https://cdn.jsdelivr.net/gh/ikrar24/NextHtml@1.0.0/NextHtml.js"></script>
+=======
+<script src="https://cdn.jsdelivr.net/gh/ikrar24/nexthtml-cdn@1.0.0/NextHtml.js"></script>
+>>>>>>> 56c67af (update nexthtml.js and redme)
+>>>>>>> 0f194106f38036ca8557bab58873e070e9a4ebf8
 ```
 
 *Note: Do not use the CDN link for deployment; use it only for practice.*
@@ -58,9 +84,21 @@ This is the best option for SEO optimization. To use NextHtml in Node.js, create
 
 
 ```
+<<<<<<< HEAD
 nexthtml-js --read index.html --make output.html
 or
 nexthtml-js --r index.html --m output.html
+=======
+<<<<<<< HEAD
+npm nexthtml --read index.html --make output.html
+or
+npm nexthtml --r index.html --m output.html
+=======
+nexthtml-js --read index.html --make output.html
+or
+nexthtml-js --r index.html --m output.html
+>>>>>>> 56c67af (update nexthtml.js and redme)
+>>>>>>> 0f194106f38036ca8557bab58873e070e9a4ebf8
 ```
 
 
@@ -69,9 +107,21 @@ Here, `index.html` is the file where you write your NextHtml code, and `output.h
 **Command 2: Automatically Read and Update `input.html` on Changes**
 
 ```
+<<<<<<< HEAD
 nexthtml --read index.html --make output.html --wacth
 or 
 nexthtml --r index.html --m output.html --w
+=======
+<<<<<<< HEAD
+npm nexthtml --read index.html --make output.html --wacth
+or 
+npm nexthtml --r index.html --m output.html --w
+=======
+nexthtml --read index.html --make output.html --wacth
+or 
+nexthtml --r index.html --m output.html --w
+>>>>>>> 56c67af (update nexthtml.js and redme)
+>>>>>>> 0f194106f38036ca8557bab58873e070e9a4ebf8
 ```
 This command automatically runs the code and updates the output file whenever changes are made.
 
@@ -256,8 +306,6 @@ To assign different classes to multiple elements created in a single line, use t
 
 
 ---
-### Agar Aap Arry Objact Ko Khali chodte hai ["","SecondClass"]
-
 
 ## Handling Empty Array Elements
 If you leave an array element empty (e.g.,`` ["","secondClass"])``, no class is assigned to that element.
